@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="679.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetpidev4.ClientstatController">
+   <children>
+      <PieChart fx:id="pie" layoutX="14.0" layoutY="64.0" prefHeight="478.0" prefWidth="568.0" />
+      <Button layoutX="229.0" layoutY="577.0" mnemonicParsing="false" onAction="#back" prefHeight="49.0" prefWidth="101.0" text="Back" />
+      <Label fx:id="nh_lab" layoutX="746.0" layoutY="260.0" text="Label" />
+      <Label fx:id="nf_lab" layoutX="746.0" layoutY="303.0" text="Label" />
+      <Label fx:id="ne_lab" layoutX="746.0" layoutY="351.0" text="Label" />
+      <Label layoutX="568.0" layoutY="260.0" text="Nombre des hommes" />
+      <Label layoutX="568.0" layoutY="303.0" text="Nombre des femmes" />
+      <Label layoutX="568.0" layoutY="351.0" text="Nombre des enfants" />
+   </children>
+</AnchorPane>
